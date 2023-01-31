@@ -1,1 +1,3 @@
-console.log("This is an alert!");
+import homeLoader from "./home";
+
+homeLoader();
