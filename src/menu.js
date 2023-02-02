@@ -9,7 +9,7 @@ const menu = () => {
     )
   );
 
-  const img = "../dist/assets/paper-bag.png";
+  const img = "assets/paper-bag.png";
 
   const div = document.createElement("div");
   div.classList.add("menu-card-wrapper");

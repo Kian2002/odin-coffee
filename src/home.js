@@ -10,7 +10,7 @@ const home = () => {
     "Our coffee products are guranteed to be 100% natural from gardening to processing the coffee beans.";
 
   const img = document.createElement("img");
-  img.src = "../dist/assets/home.png";
+  img.src = "assets/home.png";
   img.alt = "picture of coffee";
 
   const homeText = document.createElement("div");
