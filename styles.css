@@ -158,3 +158,19 @@ button:hover {
     justify-content: center;
     align-items: center;
 }
+
+/* Footer */
+.footer {
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-primary-color);
+    gap: 0.5rem;
+}
+
+.footer a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    text-align: center;
+}
