@@ -1,5 +1,6 @@
 import homeLoader from "./home";
 import menuLoader from "./menu";
+import contactLoader from "./contact";
 
 // create header
 const createHeader = () => {
@@ -29,6 +30,7 @@ const createNav = () => {
 
   home.onclick = homeLoader;
   menu.onclick = menuLoader;
+  contact.onclick = contactLoader;
 
   nav.appendChild(home);
   nav.appendChild(menu);
