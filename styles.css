@@ -147,3 +147,14 @@ button:hover {
     width: 200px;
     object-fit: cover;
 }
+
+/* Contact */
+.contact {
+    background-color: var(--secondary-color);
+    font-size: 5rem;
+    height: 80vh;
+    color: var(--text-primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
