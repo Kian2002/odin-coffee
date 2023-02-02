@@ -61,7 +61,7 @@ const createCard = (image, altText, title, cost) => {
 };
 
 const menuLoader = () => {
-  const main = document.getElementById("content");
+  const main = document.getElementById("main");
   main.textContent = "";
   main.appendChild(menu());
 };
