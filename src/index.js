@@ -48,13 +48,33 @@ const createMain = () => {
 };
 
 // footer
+const createFooter = () => {
+  const footer = document.createElement("footer");
+  footer.classList.add("footer");
+
+  const heading = document.createElement("h2");
+  const date = new Date().getFullYear();
+  heading.innerText = `Copyright ${date} \u00A9 Kian2002`;
+
+  const linkToGh = document.createElement("a");
+  linkToGh.href = "https://github.com/Kian2002/odin-coffee";
+  linkToGh.target = "_blank";
+  linkToGh.classList.add("fa-brands");
+  linkToGh.classList.add("fa-github");
+  linkToGh.classList.add("fa-xl");
+
+  footer.appendChild(heading);
+  footer.appendChild(linkToGh);
+
+  return footer;
+};
 
 const generateSite = () => {
   const content = document.getElementById("content");
 
   content.appendChild(createHeader());
   content.appendChild(createMain());
-  //   content.appendChild(createFooter());
+  content.appendChild(createFooter());
 
   homeLoader();
 };
